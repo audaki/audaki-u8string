@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
 project(audaki-u8string LANGUAGES CXX VERSION 1.0.0)
+set(CMAKE_CXX_STANDARD 17)
 
 option(ENABLE_LTO "enable LTO" OFF)
 
